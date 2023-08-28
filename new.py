@@ -1,9 +1,8 @@
-txt='she comes from italy'
-#print(txt.upper())
-# print(txt.count('o'))
-print(txt.title())
-print(bool(52))
-print(bool(None))
-x=8
-y=6
-print(x>=y)
+password ='kingsman'
+username='peter'
+login_form1=input('enter username: ')
+login_form2=input('enter password: ')
+if password==login_form2 and username==login_form1:
+    print('you logged in')
+else :
+    print('failed')
