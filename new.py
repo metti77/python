@@ -1,6 +1,5 @@
-cloud=('oracle','apple','google','amazon')
-
-ground=list(cloud)
-ground.remove('apple')
-cloud=tuple(ground)
-print(cloud)
+vart1={'iphone','sam','huawei','xiaomi'}
+vart2={'vintage','spigen','coco'}
+for x in vart1:
+#vart1.discard('sam')
+    print(x)
