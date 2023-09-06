@@ -1,9 +1,6 @@
-mylist=['mechanic','engineer','doctor','police','trader']
-mylist2=['28','35','45','31','38']
-mylist.extend(mylist2)
-print(mylist)
+cloud=('oracle','apple','google','amazon')
 
-mylist[0]='sellman'
-print(mylist)
-mylist.insert(5,'artist')
-print(mylist)
+ground=list(cloud)
+ground.remove('apple')
+cloud=tuple(ground)
+print(cloud)
