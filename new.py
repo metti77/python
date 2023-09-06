@@ -1,8 +1,9 @@
-password ='kingsman'
-username='peter'
-login_form1=input('enter username: ')
-login_form2=input('enter password: ')
-if password==login_form2 and username==login_form1:
-    print('you logged in')
-else :
-    print('failed')
+mylist=['mechanic','engineer','doctor','police','trader']
+mylist2=['28','35','45','31','38']
+mylist.extend(mylist2)
+print(mylist)
+
+mylist[0]='sellman'
+print(mylist)
+mylist.insert(5,'artist')
+print(mylist)
