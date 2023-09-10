@@ -1,8 +1,9 @@
-i = 1
-while i<5 :
-    print(i)
-    if (i==2):
+for x in "apple":
+    print(x)
+    if (x=="s"):
         break
-    i+=1     #loop
-
+    elif (x=="l"):
+        continue
+    else:
+        print('ok')
 
