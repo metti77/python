@@ -1,9 +1,7 @@
-# def jadid(a,b):
-#     print(a*b)
+a=('desk','chair','light','book')
+b=list(a)
+b[0:2]='bed','tv','mirror'
+a=tuple(b)
 
-# jadid(9,9)    
 
-# def jadi(name,age):
-#     print(f'sit down {name}{age}')     #func
-# jadi('mamad',' 24')    
-    
+print((a))
